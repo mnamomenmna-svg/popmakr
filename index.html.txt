@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Xbox</title>
+  <meta name="description" content="A dedicated page to display ads professionally while maintaining a seamless user experience." />
+  <style>
+    :root {
+      --accent: #ff6600;
+      --muted: #6b7280;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: "Tahoma", Arial, sans-serif;
+      background: #f9fafb;
+      color: #111827;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 28px auto;
+      padding: 18px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), #e85c0d);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    article {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    }
+    aside {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .card {
+      background: #fff;
+      padding: 14px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    footer {
+      margin-top: 24px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 880px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+      aside {
+        order: 2;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">P</div>
+        <div>
+          <div class="meta">Ad Display Page</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- Banner Ads -->
+        <div style="margin-top: 20px; text-align: center;">
+          <a href="https://aviso.bz/?r=binance12" target="_blank">
+            <img src="https://aviso.bz/statica/pictures/contest/A-468-REF-3.gif" style="width:468px; height:60px" alt="aviso | advertising service">
+          </a>
+        </div>
+
+        <div style="margin-top: 20px; text-align: center;">
+          <a href="https://aviso.bz/?r=binance12" target="_blank">
+            <img src="https://aviso.bz/statica/pictures/A-468-2.gif" style="width:468px; height:60px" alt="aviso | advertising service">
+          </a>
+        </div>
+
+        <!-- Other Banner Ads -->
+        <div style="margin-top: 20px; text-align: center;">
+          <a href="https://unu.im/re/3145677" target="_blank">
+            <img src="https://unu.im/i/banners/fiolent468x60.gif" alt="UNU.RU" />
+          </a>
+        </div>
+
+        <div style="margin-top: 20px; text-align: center;">
+          <a href="https://unu.im/re/3145677" target="_blank">
+            <img src="https://unu.im/i/banners/fiolent336x280.gif" alt="UNU.RU" />
+          </a>
+        </div>
+
+        <div style="margin-top: 20px; text-align: center;">
+          <a href="https://www.coinpayu.com/?r=momaen">
+            <img title="Join coinpayu to earn!" alt="coinpayu" src="https://www.coinpayu.com/static/earners_banner/468X60.gif">
+          </a>
+        </div>
+
+        <!-- More Ads -->
+        <div style="margin-top: 20px; text-align: center;">
+          <a href="https://viefaucet.com?r=65f719b86022073a46fed90b">
+            <img src="https://viefaucet.com/banners/300x250.gif" alt="Viefaucet Ad">
+          </a>
+        </div>
+
+        <div style="margin-top: 20px; text-align: center;">
+          <a href="https://www.revenuecpmgate.com/rnd0893y?key=286009ae42ccf76a865432745d3bc94e">
+            <img src="https://www.revenuecpmgate.com/banners/468x60.gif" alt="Revenue CPM Ad">
+          </a>
+        </div>
+      </article>
+
+      <aside>
+        <!-- Sidebar Ad space -->
+        <div class="card">
+          <iframe src="//pl27730906.revenuecpmgate.com/5a/7d/f0/5a7df034efe021b545308978e79ca922.js"></iframe>
+        </div>
+
+        <div class="card">
+          <iframe src="//pl27743330.revenuecpmgate.com/70/a4/e6/70a4e696771650cd0bb7fa488ef4f6f9.js"></iframe>
+        </div>
+
+        <div class="card">
+          <iframe async="async" data-cfasync="false" src="//pl27730764.revenuecpmgate.com/405ee50aaa770cebdb2c656996b20ce7/invoke.js"></iframe>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>© All rights reserved - Ad Display Page</p>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="https://www.example.com/privacy-policy">Privacy Policy</a></li>
+        <li><a href="https://www.example.com/terms-of-service">Terms of Service</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <!-- PopUnder Ad Codes -->
+  <script type="text/javascript" data-cfasync="false">
+    (function() {
+      var u = window,
+        f = "c42bba623431ba82167241262f000998",
+        x = [
+          ["siteId", 54 - 982 * 67 * 620 + 144 + 46034533],
+          ["minBid", 0],
+          ["popundersPerIP", "0"],
+          ["delayBetween", 0],
+          ["default", false],
+          ["defaultPerDay", 0],
+          ["topmostLayer", "auto"]
+        ],
+        z = [
+          "d3d3LmludGVsbGlwb3B1cC5jb20vRi9oT0IvYXNob3VsZC5taW4uanM=",
+          "ZDNtcjd5MTU0ZDJxZzUuY2xvdWRmcm9udC5uZXQvYnBlZXJqcy5taW4uanM=",
+          "d3d3LnFxd3R3cGR2aG9xLmNvbS9TellnL2xaU1VOL3BzaG91bGQubWluLmpz",
+          "d3d3LnJvdXNlYmVqLmNvbS93cGVlcmpzLm1pbi5qcw=="
+        ],
+        n = -1,
+        t, c, m = function() {
+          clearTimeout(c);
+          n++;
+          if (z[n] && !(1785184256000 < (new Date).getTime() && 1 < n)) {
+            t = u.document.createElement("script");
+            t.type = "text/javascript";
+            t.async = !0;
+            var i = u.document.getElementsByTagName("script")[0];
+            t.src = "https://" + atob(z[n]);
+            t.crossOrigin = "anonymous";
+            t.onerror = m;
+            t.onload = function() {
+              clearTimeout(c);
+              u[f.slice(0, 16) + f.slice(0, 16)] || m();
+            };
+            c = setTimeout(m, 5E3);
+            i.parentNode.insertBefore(t, i);
+          }
+        };
+      if (!u[f]) {
+        try {
+          Object.freeze(u[f] = x)
+        } catch (e) {}
+        m();
+      }
+    })();
+  </script>
+</body>
+</html>
